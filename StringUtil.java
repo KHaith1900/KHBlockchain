@@ -1,6 +1,16 @@
 import java.security.MessageDigest;
 
 public class StringUtil {
+    /**
+     * applySha256
+     * 
+     * applies the sha256 hash to the String provided as
+     * a parameter and returns the hashed value
+     * 
+     * @param input - The parameters of the block object
+     * @return: hexString- the applied sha256 hash based on
+     * string input provided from the input parameter
+     */
     //Applies Sha256 to a string and returns the result
     public static String applySha256(String input)
     {
