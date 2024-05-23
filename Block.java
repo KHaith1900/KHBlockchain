@@ -36,8 +36,8 @@ public class Block{
     /** 
      * mineBlock
      * 
-     * provides the input to potentially be stored in the D register
-     * during doClockHigh
+     * mineBlock searches throughout the blockchain to find a block that 
+     * matches the amount of zeroes denoted by the diff parameter.
      *
      * @param: diff - integer value denoting the amount of 0's being solved for
     */
